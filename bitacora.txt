@@ -1,0 +1,121 @@
+URL: http://127.0.0.1:5500/dia1/malamia.html
+Codigo de estado: 304
+Protocolo: HTTP/1.1
+Host: 127.0.0.1:5500
+Puerto:5500
+Ruta:dia1/malamia.html
+Metodo:Get
+
+Cannot GET /dia1/malamia.html
+
+Html:Funcionara como el esqueleto que definira la jerarquia de  titulos, subtitulos,formularios y ubicacion de imagenes y/o videos
+Css:Funcionara como lo que va a poner diseño  al esqueleto, osea, pondra caligrafia formal, color que respresente a la marca o que la haga ver mejor esterilizada.
+Javascript:Es como el cerebro, es el que se encarga de interactuar con el usuario al presionar un boton, o al iniciar sesion le de la bienvenida personalizada con su nombre de usuario
+
+Archivo de origen:dia1
+destino:
+ruta:
+
+index.html:
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rueda Libre | Alquiler de bicicletas en Medellín</title>
+</head>
+
+<body>
+    <nav>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="paginas/tarifas.html#info">Tarifas y rutas</a></li>
+        <li><a href="paginas/reservas.html#reserva">reservas</a></li>
+    </nav>
+
+    header  
+    <h1>Rueda Libre</h1>
+    <p>bienvenido a Rueda Libre</p>
+    <h2>Quienes somos?</h2>
+    <p>En Rueda Libre nos especializamos en ofrecer <strong>soluciones</strong> de alquiler prácticas y accesibles,
+        brindando a nuestros clientes una experiencia cómoda, <strong>confiable y sencilla</strong>. Nuestro objetivo es
+        facilitar el acceso a lo que necesitas, con un servicio pensado para adaptarse a tus necesidades.<a
+            href=" #encuentranos">encuentranos</a>. </p>
+    header
+
+    </p>
+
+    main
+    <h2>Nuestros Servicios</h2>
+    <p>tenemos servicios como:</p>
+    <h3>Alquiler de productos</h3>
+    <p>Ofrecemos diferentes opciones de alquiler para que encuentres lo que necesitas de manera fácil y rápida.
+    </p>
+    <a href="paginas/reservas.html#reserva">reservar ahora</a>
+    <a href="paginas/tarifas.html#tarifa_de_alquiler">Ver tarifas</a>
+    <h3>Atención personalizada</h3>
+    <p>Te acompañamos durante el proceso para resolver tus dudas y ayudarte a elegir la mejor opción.</p>
+    <h3>Flexibilidad y comodidad</h3>
+    <p>Buscamos que alquilar sea un proceso <strong>sencillo </strong>, con alternativas que se adapten a tus
+        necesidades y disponibilidad.</p>
+    <h3>Asesoría y acompañamiento</h3>
+    <p>Te brindamos información clara sobre nuestros productos, condiciones de alquiler y tarifas para que tomes
+        la
+        mejor decisión.</p>
+
+    <h2>¿Como alquilar?</h2>
+    <div>
+        <ol>escoger lo que te gusto</ol>
+        <ol>llenar formulario</ol>
+        <ol>verificar direccion</ol>
+        <ol>listo esperar para disfrutar</ol>
+    </div>
+
+    <div>
+        <img src="img/portada.jpeg" alt="portada" width="250px">
+        <img src="img/images2.jpeg" alt="ruta" width="300px">
+        <img src="img/bicicelta.jpeg" alt="una bicicleta" width="400px">
+    </div>
+
+    <div>
+        <a href="https://maps.app.goo.gl/bWnA2xjAoHqtGtQr9">RUTA AQUI</a>
+
+        <a href="hola@ruedalibre.example">correo</a>
+    </div>
+    <h2>Encuentranos</h2>
+    <p id="encuentranos">
+        Tienes dudas? ven y visitanos
+    </p>
+    main
+
+
+</body>
+<footer>
+    <p><strong>Negocio:</strong> Rueda Libre</p>
+    <p><strong>Correo electrónico:</strong> <a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
+</footer>
+
+Hallazgo: Las 3 páginas tenían lang="en", aun cuando todo el contenido está escrito en español.
+
+Corrección: Se actualizó la etiqueta raíz a <html lang="es"> en index.html, tarifas.html y reservas.html
+
+En index.html: Había un <h2> antes del primer <h2> principal sin estructura de secciones clara, y la secuencia saltaba entre párrafos sueltos.
+
+En tarifas.html: El encabezado principal comenzaba en <h2> sin ningún <h1> previo en la página.
+
+En reservas.html: Múltiples etiquetas <h1> estaban anidadas sin jerarquía dentro del formulario y la página
+
+En index.html: Se organizó el contenido en <section> y <article>, manteniendo un solo <h1> ("Rueda Libre") y subtítulos <h2> y <h3> en orden numérico correlativo.
+
+En tarifas.html: Se agregó <h1>Rueda Libre</h1> en el <header> y se definieron los subtítulos como <h2>.
+
+En reservas.html: Se dejó un único <h1>Reserva tu bicicleta</h1> y se reemplazaron las divisiones internas del formulario por <fieldset> con su respectivo <legend> y subtítulos <h2>
+
+En index.html: Las imágenes contenían alts imprecisos o poco descriptivos ("portada", "ruta", "una bicicleta").
+
+En tarifas.html: La imagen con un supuesto logo tenía alt="logo", cuando el archivo era decorativo o requería contexto.
+
+Se sustituyeron los alts de index.html por descripciones contextuales concretas.
+
+En tarifas.html, si la imagen es puramente ilustrativa/decorativa, se estableció alt="" con role="presentation"
+
+
+
+
