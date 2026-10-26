@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rueda Libre | Alquiler de bicicletas en Medellín</title>
+</head>
+
+<body>
+    <nav>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="paginas/tarifas.html#info">Tarifas y rutas</a></li>
+        <li><a href="paginas/reservas.html#reserva">reservas</a></li>
+    </nav>
+    <h1>Rueda Libre</h1>
+    <p>bienvenido a Rueda Libre</p>
+    <h2>Quienes somos?</h2>
+    <p>En Rueda Libre nos especializamos en ofrecer <strong>soluciones</strong> de alquiler prácticas y accesibles,
+        brindando a nuestros clientes una experiencia cómoda, <strong>confiable y sencilla</strong>. Nuestro objetivo es
+        facilitar el acceso a lo que necesitas, con un servicio pensado para adaptarse a tus necesidades.<a
+            href=" #encuentranos">encuentranos</a>. </p>
+
+    </p>
+    <h2>Nuestros Servicios</h2>
+    <p>tenemos servicios como:</p>
+    <h3>Alquiler de productos</h3>
+    <p>Ofrecemos diferentes opciones de alquiler para que encuentres lo que necesitas de manera fácil y rápida.
+    </p>
+    <a href="paginas/reservas.html#reserva">reservar ahora</a>
+    <a href="paginas/tarifas.html#tarifa_de_alquiler">Ver tarifas</a>
+    <h3>Atención personalizada</h3>
+    <p>Te acompañamos durante el proceso para resolver tus dudas y ayudarte a elegir la mejor opción.</p>
+    <h3>Flexibilidad y comodidad</h3>
+    <p>Buscamos que alquilar sea un proceso <strong>sencillo </strong>, con alternativas que se adapten a tus
+        necesidades y disponibilidad.</p>
+    <h3>Asesoría y acompañamiento</h3>
+    <p>Te brindamos información clara sobre nuestros productos, condiciones de alquiler y tarifas para que tomes
+        la
+        mejor decisión.</p>
+
+    <h2>¿Como alquilar?</h2>
+    <div>
+        <ol>escoger lo que te gusto</ol>
+        <ol>llenar formulario</ol>
+        <ol>verificar direccion</ol>
+        <ol>listo esperar para disfrutar</ol>
+    </div>
+
+    <div>
+        <img src="img/portada.jpeg" alt="portada" width="250px">
+        <img src="img/images2.jpeg" alt="ruta" width="300px">
+        <img src="img/bicicelta.jpeg" alt="una bicicleta" width="400px">
+    </div>
+
+    <div>
+        <a href="https://maps.app.goo.gl/bWnA2xjAoHqtGtQr9">RUTA AQUI</a>
+
+        <a href="hola@ruedalibre.example">correo</a>
+    </div>
+
+
+
+
+
+
+    <h2>Encuentranos</h2>
+    <p id="encuentranos">
+        Tienes dudas? ven y visitanos
+    </p>
+
+</body>
+<footer>
+    <p><strong>Negocio:</strong> Rueda Libre</p>
+    <p><strong>Correo electrónico:</strong> <a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
+</footer>
+
+</html>

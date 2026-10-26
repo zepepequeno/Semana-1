@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu bicicleta | Rueda Libre</title>
+</head>
+<body>
+    <header>
+        <h1 id="reserva">Reserva tu bicicleta</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="tarifas.html#info">Tarifas y rutas</a></li>
+                <li><a href="reservas.html#reserva">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <h2>Horario de atención</h2>
+            <p><strong>Lunes a viernes:</strong> 7:00 a. m. a 7:00 p. m.</p>
+            <p><strong>Sábados, domingos y festivos:</strong> 6:00 a. m. a 2:00 p. m.</p>
+            <a href="mailto:reserva@gmail.com">Contactar soporte por correo electrónico</a>
+        </aside>
+        <section>
+            <h2>Formulario de reserva</h2>
+            <form action="formulario_exitoso.html" method="post">
+
+                <fieldset>
+                    <legend>Tus datos</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre_completo" id="nombre" placeholder="Juan David" required>
+                    </div>
+                    <div>
+                        <label for="documento">Documento de identidad</label>
+                        <input type="text" name="documento_identidad" id="documento" placeholder="1040573272" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" name="correo_electronico" id="correo" placeholder="alejo@gmail.com"
+                            required>
+                    </div>
+                    <div>
+                        <label for="celular">Celular</label>
+                        <input type="tel" name="numero_celular" id="celular" placeholder="3042785947" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu alquiler</legend>
+                    <div>
+                        <label for="tipo_bicicleta">Tipo de bicicleta</label>
+                        <select name="tipo_bicicleta" id="tipo_bicicleta" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="urbana">Urbana</option>
+                            <option value="montaña">Montaña</option>
+                            <option value="electrica">Eléctrica</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="plan">Plan de alquiler</label>
+                        <select name="plan" id="plan" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="rios_y_parques">Ríos y Parques</option>
+                            <option value="sabores_de_barrio">Sabores de Barrio</option>
+                            <option value="recto_las_palmas">Recto las Palmas</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="cantidad_de_bici">Cantidad de bicicletas</label>
+                        <input type="number" name="cantidad_de_bici" id="cantidad_de_bici" min="1" max="6" value="1"
+                            required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Confirmación</legend>
+                    <div>
+                        <label for="fecha_de_alquiler">Fecha de alquiler</label>
+                        <input type="date" name="fecha_de_alquiler" id="fecha_de_alquiler" required>
+                    </div>
+                    <div>
+                        <label for="hora_de_entrega">Hora de entrega</label>
+                        <input type="time" name="hora_de_entrega" id="hora_de_entrega" required>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="politicas" name="politicas" required>
+                        <label for="politicas">
+                            Acepto las <a href="politicas.html" target="_blank">Políticas de alquiler</a>
+                            <strong>(Obligatorio)</strong>
+                        </label>
+                    </div>
+                    <div>
+    <a href="formulario_exitoso.html#card" class="btn">Enviar información de reserva</a>
+</div>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <p>Somos una empresa muy confiable y puntual a la hora de los encargos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Negocio:</strong> Rueda Libre</p>
+        <p><strong>Correo electrónico:</strong> <a href="mailto:hola@ruedalibre.example">hola@ruedalibre.example</a></p>
+    </footer>
+</body>
+</htm>
+
+

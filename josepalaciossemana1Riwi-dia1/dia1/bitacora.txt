@@ -1,0 +1,17 @@
+URL: http://127.0.0.1:5500/dia1/malamia.html
+Codigo de estado: 304
+Protocolo: HTTP/1.1
+Host: 127.0.0.1:5500
+Puerto:5500
+Ruta:dia1/malamia.html
+Metodo:Get
+
+Cannot GET /dia1/malamia.html
+
+Html:Funcionara como el esqueleto que definira la jerarquia de  titulos, subtitulos,formularios y ubicacion de imagenes y/o videos
+Css:Funcionara como lo que va a poner diseño  al esqueleto, osea, pondra caligrafia formal, color que respresente a la marca o que la haga ver mejor esterilizada.
+Javascript:Es como el cerebro, es el que se encarga de interactuar con el usuario al presionar un boton, o al iniciar sesion le de la bienvenida personalizada con su nombre de usuario
+
+Archivo de origen:dia1
+destino:
+ruta:
